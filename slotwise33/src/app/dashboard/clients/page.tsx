@@ -30,7 +30,7 @@ export default async function ClientsPage() {
         {profile?.role !== 'client' && (
           <Link
             href="/dashboard/clients/new"
-            className="flex items-center gap-1.5 px-4 py-2 bg-black hover:bg-gray-800 text-gray-900 text-sm font-medium rounded-lg transition-colors"
+            className="flex items-center gap-1.5 px-4 py-2 bg-black hover:bg-gray-800 text-white text-sm font-medium rounded-lg transition-colors"
           >
             <Plus size={16} />
             Add client
